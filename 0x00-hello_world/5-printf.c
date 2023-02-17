@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - printf line of string
+ *main - Entry point
  *
  * Return: Always return 0 (success)
  */
