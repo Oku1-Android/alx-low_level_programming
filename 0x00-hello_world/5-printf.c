@@ -1,14 +1,12 @@
 #include <stdio.h>
-/*
+/**
+ *main - printf line of string
  *
- * printf line of string
- *
- * return 0
+ * Return: Always return 0 (success)
  */
-
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-	return 0;
+	return (0);
 }
