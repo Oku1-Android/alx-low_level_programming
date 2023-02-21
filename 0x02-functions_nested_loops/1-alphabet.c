@@ -1,8 +1,7 @@
 #include "main.h"
 
 /*
- *print_alphabet(void) - print all alphabet
- * A code written by Oku Imeh
+ *print_alphabet - print all alphabet
  */
 void print_alphabet(void)
 {
