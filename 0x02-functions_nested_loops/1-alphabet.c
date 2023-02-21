@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- *print_alphabet - print all alphabet
- */
+/**
+ *print_alphabet - print lowercase letters of the alphabet
+  */
 void print_alphabet(void)
 {
 	char letter;
