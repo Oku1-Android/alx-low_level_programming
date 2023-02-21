@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_alphabet(void);
+ *print_alphabet(void) - lower case letters of the alphabet
  * A code written by Oku Imeh
  */
 
