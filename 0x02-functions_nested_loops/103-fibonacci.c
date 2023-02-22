@@ -17,7 +17,7 @@ int main(void)
 		SumTotal = sum1 + sum2;
 
 		if (SumTotal % 2 == 0)
-			print("%d", SumTotal);
+			prinf("%d", SumTotal);
 	}
 	printf("\n");
 }
