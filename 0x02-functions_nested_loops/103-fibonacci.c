@@ -5,12 +5,13 @@
  * Return: 0
  */
 
-int main(void)
+int main(int SumTotal)
 {
-	int i = 0, sum1 = 0, SumTotal = 0, sum2 = 0;
+	int i = 1, sum1 = 0, sum2 = 0;
 
 	while (i <= 4000000)
 	{
+		printf("%d", i + sum1);
 		sum1 = i++;
 		sum2 = sum1++;
 
