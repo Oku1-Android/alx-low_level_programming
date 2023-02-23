@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main(int SumTotal)
+int main(SumTotal)
 {
 	int i = 1, sum1 = 0, sum2 = 0;
 
@@ -21,4 +21,6 @@ int main(int SumTotal)
 			printf("%d", SumTotal);
 	}
 	printf("\n");
+
+	return (0);
 }
