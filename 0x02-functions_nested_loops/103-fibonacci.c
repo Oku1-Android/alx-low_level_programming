@@ -1,4 +1,4 @@
-I#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - fabonica
@@ -7,7 +7,7 @@ I#include <stdio.h>
 
 int main(void)
 {
-	int i = 1, j = 2, SumTotal = 0
+	int i = 1, j = 2, SumTotal = 0;
 
 	while (i <= 4000000)
 	{
