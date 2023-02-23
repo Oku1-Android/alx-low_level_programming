@@ -1,25 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - fabonica
- * Return: 0
+ * main - Prints the sum of even-valued Fibonacci sequence
+ *        terms not exceeding 4000000.
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int i = 1, j = 2, SumTotal = 0;
+	unsigned long fib1 = 0, fib2 = 1, fibsum;
+	float tot_sum;
 
-	while (i <= 4000000)
+	while (1)
 	{
-		i = j;
-		j = SumTotal;
+		fibsum = fib1 + fib2;
+		if (fibsum > 4000000)
+			break;
 
-		SumTotal = i + j;
+		if ((fibsum % 2) == 0)
+			tot_sum += fibsum;
 
-		if (SumTotal % 2 == 0)
-			printf("%d", SumTotal);
+		fib1 = fib2;
+		fib2 = fibsum;
 	}
-	printf("\n");
+	printf("%.0f\n", tot_sum);
 
 	return (0);
 }
