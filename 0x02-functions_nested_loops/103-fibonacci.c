@@ -1,21 +1,20 @@
-#include <stdio.h>
+I#include <stdio.h>
 
 /**
  * main - fabonica
  * Return: 0
  */
 
-int main()
+int main(void)
 {
-	int i = 1, sum1 = 0, SumTotal = 0, sum2 = 0;
+	int i = 1, j = 2, SumTotal = 0
 
 	while (i <= 4000000)
 	{
-		printf("%d", i + sum1);
-		sum1 = i++;
-		sum2 = sum1++;
+		i = j;
+		j = SumTotal;
 
-		SumTotal = sum1 + sum2;
+		SumTotal = i + j;
 
 		if (SumTotal % 2 == 0)
 			printf("%d", SumTotal);
