@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main(SumTotal)
+int main(int SumTotal)
 {
 	int i = 1, sum1 = 0, sum2 = 0;
 
