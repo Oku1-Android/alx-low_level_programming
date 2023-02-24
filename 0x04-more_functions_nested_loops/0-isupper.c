@@ -1,24 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - testing upper case letter
- *@c: character to test
- * Return: 0
+ * _isupper - uppercase letters
+ * @c: character to check
+ *
+ * Return: 0 or 1
  */
+int _isupper(int c)
 
-int _isdigit(int c)
 {
-	char c;
-
-		if (c >= 'A' && c <= 'Z')
-		{
-			return (1);
-		}
-
-		else
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-
-
+	else
+		return (0);
 
 }
-
