@@ -10,7 +10,7 @@ int _isdigit(int c)
 {
 	char c;
 
-		if (c <= 'Z' && letter <= 'z')
+		if (c >= 'A' && c <= 'Z')
 		{
 			return (1);
 		}
