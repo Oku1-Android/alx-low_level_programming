@@ -7,10 +7,12 @@
  * Return: String lenght
  */
 
-
 int _strlen(char *s)
 {
-	strlen(s);
+	int a = 0;
 
-	return (*s);
+	for (; *s++;)
+		a++;
+	return (a);
 }
+
