@@ -1,4 +1,4 @@
-24 sloc)  626 Bytes
+ (24 sloc)  626 Bytes
 #include "variadic_functions.h"
 #include <stdarg.h>
 /**
