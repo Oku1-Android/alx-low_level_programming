@@ -1,7 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 /**
  *print_listint - the sinlgy link list
  *@h: the nodes in link list
@@ -11,18 +10,18 @@
 
 size_t print_listint(const listint_t *h)
 {
-	listint_t *head;
-	listint_t *nodes;
-	size_t numNodes;
+	//listint_t *head;
+	
+	const listint_t *node = h;
+	size_t numNodes = 0;
+	
+	//nodes = head;
 
-	nodes = head;
-
-	while (nodes->next != NULL)
+	while (node != NULL)
 	{
-		printf("Elements of listint_t are %d \n", nodes->next);
-		nodes = nodes->next
-
+		printf("%d\n", node->n);
 		numNodes++;
+		node = node->next;
 	}
 		return (numNodes);
 }

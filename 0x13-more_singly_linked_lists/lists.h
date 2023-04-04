@@ -6,13 +6,13 @@
 #include <string.h>
 
 /**
- * struct listint_s - the sigly link list
+ * struct listint_s - the singly link list
  * @n: node member
  * @next: link to the next node
  *Description: display of singly link list
   */
 
-typeof struct listint_s
+typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
