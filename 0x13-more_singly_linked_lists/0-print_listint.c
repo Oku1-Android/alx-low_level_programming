@@ -6,7 +6,7 @@
  *@h: the nodes in link list
  *@next: connection to the new node
  *Return: number of elements
- **/
+ */
 
 size_t print_listint(const listint_t *h)
 {
